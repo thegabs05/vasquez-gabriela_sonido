@@ -3,7 +3,7 @@ let t = 0;
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  osc = new p5.Oscillator("sine");
+  osc = new p5.Oscillator("sawtooth");
 }
 
 function draw() {
